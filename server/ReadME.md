@@ -10,5 +10,5 @@
 #### For Pull Requests
 Aim is to keep this repository as simple and light as we can, only add packages which actually increases the productivity or app performance i.e raise PR for a must to have package/feature, looking forward to contributions.
 
-#####Starter kit created by [Bhupinder Singh](https://github.com/dynamicsingh), follow me on twitter[@dynamicsingh](https://twitter.com/dynamicsingh)
+##### Starter kit created by [Bhupinder Singh](https://github.com/dynamicsingh), follow me on twitter[@dynamicsingh](https://twitter.com/dynamicsingh)
 
