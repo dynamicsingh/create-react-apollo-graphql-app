@@ -14,6 +14,7 @@ cd inside to see detail information about steps to run in #README.md
 * NodeJS
 * GraphQL server
 * MongoDB
+* Mongoose
 
 #### For Pull Requests
 Aim is to keep this repository as simple and light as we can, only add packages which actually increases the productivity or app performance i.e raise PR for a must to have package/feature, looking forward to contributions.
