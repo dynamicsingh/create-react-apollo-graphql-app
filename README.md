@@ -5,12 +5,12 @@
 * NPM 6.2.0
 
 ##### `client` is the frontend directory
-cd inside to see detail information about steps to run in #README.md
+cd inside to see detail information about steps to run in `README.md`
 * React
 * Apollo (GraphQL client)
 
 ##### `server` is the server side or backend directory
-cd inside to see detail information about steps to run in #README.md
+cd inside to see detail information about steps to run in `README.md`
 * NodeJS
 * GraphQL server
 * MongoDB
