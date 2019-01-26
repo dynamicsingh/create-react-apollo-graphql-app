@@ -8,14 +8,18 @@ const vehicleSampleData = require("./vehicle.json");
 function insertData() {
     MakerModel.findById(makerSampleData[0]._id, (err, res)=>{
         if(!res){
-            console.log("maker added");
-            MakerModel.insertMany(makerSampleData);
+            console.log("maker added to db");
+            MakerModel.insertMany(makerSampleData,  {
+                "ordered": false
+            });
         }
     });
     VehicleModel.findById(vehicleSampleData[0]._id, (err, res)=>{
         if(!res){
-            console.log("vehicle added");
-            VehicleModel.insertMany(makerSampleData);
+            console.log("vehicles added to db");
+            VehicleModel.insertMany(vehicleSampleData, {
+                "ordered": false
+            });
         }
     });
 }
