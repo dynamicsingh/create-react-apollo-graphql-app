@@ -17,6 +17,8 @@ class AddVehicle extends Component {
         const data = this.props.getMakerQuery; //we don't get .data instead we get name directly
         if (data.loading) {
             return (<option disabled={true}>Loading makers</option>);
+        }else if (!data.makers) {
+            return (<option disabled={true}>No Data</option>);
         } else {
             return data.makers.map((maker, index) => {
                 return (

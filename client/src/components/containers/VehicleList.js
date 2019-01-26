@@ -18,6 +18,8 @@ class VehicleList extends Component {
         const data = this.props.data;
         if (data.loading) {
             return (<div>Loading vehicles</div>);
+        } else if (!data.vehicles) {
+            return (<div>No Data Found in DB</div>);
         } else {
             return data.vehicles.map((vehicle, index) => {
                 return (
