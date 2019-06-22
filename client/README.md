@@ -22,7 +22,7 @@
 ##### Use following scripts to run this project on development mode, create production build and run unit tests
 
 ## Available Scripts
-######uses [React-scripts](https://www.npmjs.com/package/react-scripts) for build creation and running tests
+###### uses [React-scripts](https://www.npmjs.com/package/react-scripts) for build creation and running tests
 In the project directory, you can run:
 
 ### `npm start`
